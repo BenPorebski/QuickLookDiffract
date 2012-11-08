@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55F6896147DC238007A4D42 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55F6895147DC238007A4D42 /* QuickLook.framework */; };
+		B55F6898147DC238007A4D42 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55F6897147DC238007A4D42 /* ApplicationServices.framework */; };
+		B55F689A147DC238007A4D42 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55F6899147DC238007A4D42 /* CoreServices.framework */; };
+		B55F689C147DC238007A4D42 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55F689B147DC238007A4D42 /* CoreFoundation.framework */; };
+		B55F68A2147DC238007A4D42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B55F68A0147DC238007A4D42 /* InfoPlist.strings */; };
+		B55F68A4147DC238007A4D42 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = B55F68A3147DC238007A4D42 /* GenerateThumbnailForURL.c */; };
+		B55F68A6147DC238007A4D42 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = B55F68A5147DC238007A4D42 /* GeneratePreviewForURL.c */; };
+		B55F68A8147DC238007A4D42 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B55F68A7147DC238007A4D42 /* main.c */; };
+		B55F68B0147DC2BB007A4D42 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = B55F68AF147DC2BB007A4D42 /* main.h */; };
+		B55F68B2147DC33B007A4D42 /* render_osc.c in Sources */ = {isa = PBXBuildFile; fileRef = B55F68B1147DC33B007A4D42 /* render_osc.c */; };
+		B55F68B4147DC34D007A4D42 /* render_osc.h in Headers */ = {isa = PBXBuildFile; fileRef = B55F68B3147DC34D007A4D42 /* render_osc.h */; };
+		B55F68B9147DD1D5007A4D42 /* creatediff in Resources */ = {isa = PBXBuildFile; fileRef = B55F68B8147DD1D5007A4D42 /* creatediff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B55F6892147DC238007A4D42 /* osc.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osc.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55F6895147DC238007A4D42 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		B55F6897147DC238007A4D42 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		B55F6899147DC238007A4D42 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		B55F689B147DC238007A4D42 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B55F689F147DC238007A4D42 /* osc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osc-Info.plist"; sourceTree = "<group>"; };
+		B55F68A1147DC238007A4D42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B55F68A3147DC238007A4D42 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		B55F68A5147DC238007A4D42 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		B55F68A7147DC238007A4D42 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B55F68A9147DC238007A4D42 /* osc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osc-Prefix.pch"; sourceTree = "<group>"; };
+		B55F68AF147DC2BB007A4D42 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		B55F68B1147DC33B007A4D42 /* render_osc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = render_osc.c; sourceTree = "<group>"; };
+		B55F68B3147DC34D007A4D42 /* render_osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = render_osc.h; sourceTree = "<group>"; };
+		B55F68B8147DD1D5007A4D42 /* creatediff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = creatediff; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55F688D147DC238007A4D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55F6896147DC238007A4D42 /* QuickLook.framework in Frameworks */,
+				B55F6898147DC238007A4D42 /* ApplicationServices.framework in Frameworks */,
+				B55F689A147DC238007A4D42 /* CoreServices.framework in Frameworks */,
+				B55F689C147DC238007A4D42 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55F6885147DC237007A4D42 = {
+			isa = PBXGroup;
+			children = (
+				B55F689D147DC238007A4D42 /* osc */,
+				B55F6894147DC238007A4D42 /* Frameworks */,
+				B55F6893147DC238007A4D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B55F6893147DC238007A4D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55F6892147DC238007A4D42 /* osc.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55F6894147DC238007A4D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55F6895147DC238007A4D42 /* QuickLook.framework */,
+				B55F6897147DC238007A4D42 /* ApplicationServices.framework */,
+				B55F6899147DC238007A4D42 /* CoreServices.framework */,
+				B55F689B147DC238007A4D42 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B55F689D147DC238007A4D42 /* osc */ = {
+			isa = PBXGroup;
+			children = (
+				B55F68A3147DC238007A4D42 /* GenerateThumbnailForURL.c */,
+				B55F68A5147DC238007A4D42 /* GeneratePreviewForURL.c */,
+				B55F68A7147DC238007A4D42 /* main.c */,
+				B55F68AF147DC2BB007A4D42 /* main.h */,
+				B55F68B1147DC33B007A4D42 /* render_osc.c */,
+				B55F68B3147DC34D007A4D42 /* render_osc.h */,
+				B55F689E147DC238007A4D42 /* Supporting Files */,
+			);
+			path = osc;
+			sourceTree = "<group>";
+		};
+		B55F689E147DC238007A4D42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B55F68B8147DD1D5007A4D42 /* creatediff */,
+				B55F689F147DC238007A4D42 /* osc-Info.plist */,
+				B55F68A0147DC238007A4D42 /* InfoPlist.strings */,
+				B55F68A9147DC238007A4D42 /* osc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B55F688E147DC238007A4D42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55F68B0147DC2BB007A4D42 /* main.h in Headers */,
+				B55F68B4147DC34D007A4D42 /* render_osc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B55F6891147DC238007A4D42 /* osc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55F68AC147DC238007A4D42 /* Build configuration list for PBXNativeTarget "osc" */;
+			buildPhases = (
+				B55F688C147DC238007A4D42 /* Sources */,
+				B55F688D147DC238007A4D42 /* Frameworks */,
+				B55F688E147DC238007A4D42 /* Headers */,
+				B55F688F147DC238007A4D42 /* Resources */,
+				B55F6890147DC238007A4D42 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osc;
+			productName = osc;
+			productReference = B55F6892147DC238007A4D42 /* osc.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55F6887147DC237007A4D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B55F688A147DC237007A4D42 /* Build configuration list for PBXProject "osc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B55F6885147DC237007A4D42;
+			productRefGroup = B55F6893147DC238007A4D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55F6891147DC238007A4D42 /* osc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55F688F147DC238007A4D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55F68A2147DC238007A4D42 /* InfoPlist.strings in Resources */,
+				B55F68B9147DD1D5007A4D42 /* creatediff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B55F6890147DC238007A4D42 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55F688C147DC238007A4D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55F68A4147DC238007A4D42 /* GenerateThumbnailForURL.c in Sources */,
+				B55F68A6147DC238007A4D42 /* GeneratePreviewForURL.c in Sources */,
+				B55F68A8147DC238007A4D42 /* main.c in Sources */,
+				B55F68B2147DC33B007A4D42 /* render_osc.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B55F68A0147DC238007A4D42 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55F68A1147DC238007A4D42 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55F68AA147DC238007A4D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B55F68AB147DC238007A4D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B55F68AD147DC238007A4D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osc/osc-Prefix.pch";
+				INFOPLIST_FILE = "osc/osc-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		B55F68AE147DC238007A4D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osc/osc-Prefix.pch";
+				INFOPLIST_FILE = "osc/osc-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55F688A147DC237007A4D42 /* Build configuration list for PBXProject "osc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55F68AA147DC238007A4D42 /* Debug */,
+				B55F68AB147DC238007A4D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55F68AC147DC238007A4D42 /* Build configuration list for PBXNativeTarget "osc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55F68AD147DC238007A4D42 /* Debug */,
+				B55F68AE147DC238007A4D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B55F6887147DC237007A4D42 /* Project object */;
+}
