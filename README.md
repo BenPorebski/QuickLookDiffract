@@ -1,4 +1,4 @@
-osc-quicklook-plugin
+QuickLookDiffract
 ====================
 
 An OSX quicklook plugin for displaying diffraction image data
